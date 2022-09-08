@@ -5,3 +5,4 @@ seaborn==0.11.2
 pandas-datareader==0.10.0
 scikit-learn
 Keras==2.4.3
+tensorflow
