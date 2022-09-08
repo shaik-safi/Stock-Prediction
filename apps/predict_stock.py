@@ -64,8 +64,8 @@ def app():
         x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
         # x_train.shape
 
-        from keras.models import Sequential
-        from keras.layers import Dense, LSTM
+        from tensorflow.keras.models import Sequential
+        from tensorflow.keras.layers import Dense, LSTM
         print(x_train.shape)
         # Build the LSTM model
         model = Sequential()
